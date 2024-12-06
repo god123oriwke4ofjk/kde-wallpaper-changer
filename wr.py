@@ -3,8 +3,8 @@ import subprocess
 import json
 
 # Configuration
-WALLPAPERS_FOLDER = "wallpapers"
-STATE_FILE = "wallpaper_state.json"
+WALLPAPERS_FOLDER = "/wallpapers"
+STATE_FILE = "/wallpaper_state.json"
 SUPPORTED_FORMATS = (".jpg", ".jpeg", ".png", ".bmp")
 
 def load_state():
