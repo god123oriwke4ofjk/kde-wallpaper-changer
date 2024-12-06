@@ -4,7 +4,7 @@ import json
 from pynput import keyboard
 
 # Path to the main wallpapers folder
-WALLPAPERS_FOLDER = "/home/lor/projects/rice/wallpapers"
+WALLPAPERS_FOLDER = "wallpapers"
 SUPPORTED_FORMATS = (".jpg", ".jpeg", ".png", ".bmp")  # Add other formats if needed
 
 # Path to store the state (theme and wallpaper index)
